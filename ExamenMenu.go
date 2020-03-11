@@ -36,7 +36,7 @@ func main() {
 			if scanner.Scan() {
 				c.Nombre = scanner.Text()
 			}
-			fmt.Println("Ingresa la Calificacion:")
+			fmt.Println("Ingresa la Calificacion(favor de ingresarlas separandolas por comas): ")
 			if scanner.Scan() {
 				c.Calificacion = scanner.Text()
 			}
